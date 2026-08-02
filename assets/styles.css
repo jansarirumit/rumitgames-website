@@ -482,3 +482,31 @@ td {
     height: 110px;
   }
 }
+
+/* Keep all card buttons aligned at the bottom */
+
+.card-grid,
+.article-grid {
+  align-items: stretch;
+}
+
+.game-card,
+.article-card {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.game-card-body,
+.article-card .content {
+  flex: 1 1 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.game-card-body .text-link,
+.article-card .content .text-link {
+  margin-top: auto !important;
+  padding-top: 16px;
+  display: block;
+}
