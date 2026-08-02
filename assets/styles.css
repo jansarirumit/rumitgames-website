@@ -377,6 +377,36 @@ td {
   text-align: left;
 }
 
+.game-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.game-card .text-link {
+  margin-top: auto;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card .content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.article-card .text-link {
+  margin-top: auto;
+}
+
 @media (max-width: 1050px) {
   .card-grid.five {
     grid-template-columns: repeat(2, 1fr);
